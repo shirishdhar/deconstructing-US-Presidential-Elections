@@ -1,5 +1,9 @@
-A short description of the ipynbs are given in the final report.
+Goal - To perform natural language sentiment analysis on 50,000 tweets focussed on the 2016 Presidential elections, and to identify correlation between voters' tweeting behaviour and voting behaviour. A tweet sentiment analyser was needed for this purpose.
 
-Please feel free to post our poster and presentation publicly.
+Issue - Most modern pre-built sentiment analysers can only predict whether a tweet has a 'positive' or 'negative' sentiment, but cannot provide subject-based sentiments (For eg. Is the positive sentiment towards Hillary or Trump?).
+
+Solution - Successfully built our very own 'subject-based sentiment analyser' that deconstructed individual tweets and predicted whether a tweet was 'Pro-Hillary', 'Pro-Trump' or 'Neutral'. This was done through extensive natural language feature engineering and the use of predictive machine learning models. The analyser was then used to compare the overall Twitter sentiment of each individual US state and then compare the sentiment to the actual election result for that state.
+
+Result - The subject-based sentiment analyser found an 89% match between the Twitter sentiment of US states and their voting results. It was also able to deconstruct complex tweets and correctly predict whether they favour Trump or Hillary.
 
 Our data set is too large to submit but a link to it is provided in the references in our report.
